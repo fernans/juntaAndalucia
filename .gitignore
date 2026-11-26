@@ -1,0 +1,18 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+*.swp
+*~
+
+# Reference copies (other cubensis projects / backups)
+Copia de */
+Backup_old/
+_old_/
+
+# Large assets published in Releases (juntaAndalucia-assets.zip)
+docs/objetos/Escena_con_cambios_01.rar
+docs/objetos/Escena_01/Escena_01_75.FBX
+docs/objetos/Escena_con_cambios_01/Escena_01_75.fbm/texfile6_modificado.tif

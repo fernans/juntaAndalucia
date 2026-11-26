@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+function MainAI.onDestroy(o)
+
+
+
+
+
+scene.destroyRuntimeObject(application.getCurrentUserScene(),o)
+log.message("> objeto destruido <")
+
+end

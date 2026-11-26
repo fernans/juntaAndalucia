@@ -1,0 +1,587 @@
+LWSC
+3
+
+FirstFrame 1
+LastFrame 3
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+CurrentFrame 1
+FramesPerSecond 25
+
+AddNullObject Null
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -0.044887908 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key -0.14129877 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0.0030135168 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/10_Hills/terrain.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AddNullObject camera_target
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  5
+  Key -17.178455 0 0 0 0 0 0 0 0
+  Key 28.981365 0.039999999 0 0 0 0 17.059982 26.065767 0
+  Key 31.183155 0.079999998 0 0 0 0 -3.5305843 -3.5305843 0
+  Key 21.920197 0.12 0 0 0 0 -19.793226 0 0
+  Key -0.70847434 0.16 0 0 0 0 -22.47261 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  5
+  Key 4 0 0 0 0 0 0 -1.9862069 0
+  Key 12 0.039999999 0 0 0 0 0 24 0
+  Key 26.666666 0.079999998 0 0 0 0 14 14 0
+  Key 0 0.12 0 0 0 0 18.666666 0 0
+  Key 40 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  5
+  Key 68.794853 0 0 0 0 0 0 0 0
+  Key -13.337749 0.039999999 0 0 0 0 -68.320404 -43.542595 0
+  Key -5.0080481 0.079999998 0 0 0 0 8.4093552 8.4093552 0
+  Key 3.4809608 0.12 0 0 0 0 -42.905365 0 0
+  Key -77.695793 0.16 0 0 0 0 -80.616913 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/10_Hills/trees01.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/10_Hills/tree01_A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "treeUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+AmbientColor 1 1 1
+AmbientIntensity 0.15
+
+AddLight
+LightName Light
+ShowLight 1 5
+SchematicPosition 1.200000 -0.800000
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  4
+  Key 806.07709 0 0 0 0 0 0 -1438.4178 0
+  Key -432.94641 0.039999999 0 0 0 0 -721.70618 -721.70618 0
+  Key -637.33527 0.079999998 0 0 0 0 -1443.042 -721.521 0
+  Key -1358.486 0.12 0 0 0 0 -2159.564 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  4
+  Key 735.96649 0 0 0 0 0 0 -136.57588 0
+  Key 453.93103 0.039999999 0 0 0 0 -68.525055 -68.525055 0
+  Key 598.91638 0.079999998 0 0 0 0 0 0 0
+  Key 735.96649 0.12 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  4
+  Key 525.37189 0 0 0 0 0 0 223.45052 0
+  Key 644.84821 0.039999999 0 0 0 0 112.11319 112.11319 0
+  Key 749.59827 0.079999998 0 0 0 0 237.85413 118.92706 0
+  Key 882.15308 0.12 0 0 0 0 355.95721 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  4
+  Key -2.1483824 0 0 0 0 0 0 -1.6919338 0
+  Key -3.7328141 0.039999999 0 0 0 0 -0.84890425 -0.84890425 0
+  Key -3.8461909 0.079999998 0 0 0 0 -1.3253764 -0.6626882 0
+  Key -4.136447 0.12 0 0 0 0 -1.9834732 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  4
+  Key 0.65304422 0 0 0 0 0 0 -0.10576182 0
+  Key 0.52904415 0.039999999 0 0 0 0 -0.053064525 -0.053064525 0
+  Key 0.54691517 0.079999998 0 0 0 0 -0.15099113 -0.075495563 0
+  Key 0.42655754 0.12 0 0 0 0 -0.22596362 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  4
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  4
+  Key 400 0 0 0 0 0 0 0 0
+  Key 400 0.039999999 0 0 0 0 0 0 0
+  Key 400 0.079999998 0 0 0 0 0 0 0
+  Key 400 0.12 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  4
+  Key 25 0 0 0 0 0 0 0 0
+  Key 25 0.039999999 0 0 0 0 0 0 0
+  Key 25 0.079999998 0 0 0 0 0 0 0
+  Key 25 0.12 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  4
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000000
+LightColor 1 1 1
+LightIntensity 0.45
+AffectCaustics 1
+LightType 4
+LightQuality 4
+ShadowType 1
+
+AddCamera
+CameraName Camera
+ShowCamera 1 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  5
+  Key -24.753767 0 0 0 0 0 0 -108.28069 0
+  Key -5.7756524 0.039999999 0 0 0 0 0 0 0
+  Key -446.38184 0.079999998 0 0 0 0 0 0 0
+  Key -419.62134 0.12 0 0 0 0 0 0 0
+  Key -61.701321 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  5
+  Key 2 0 0 0 0 0 0 82.686455 0
+  Key 2 0.039999999 0 0 0 0 0 0 0
+  Key 210.58049 0.079999998 0 0 0 0 128.39131 0 0
+  Key 370.75607 0.12 0 0 0 0 0 0 0
+  Key 894.57324 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  5
+  Key 4.5359449 0 0 0 0 0 0 -5.2113762 0
+  Key 34.838455 0.039999999 0 0 0 0 0 0 0
+  Key 386.80194 0.079999998 0 0 0 0 -26.112244 0 0
+  Key 185.27451 0.12 0 0 0 0 0 0 0
+  Key -149.88496 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  5
+  Key 0.11734574 0 0 0 0 0 0 0.030941727 0
+  Key -3.7665741 0.039999999 0 0 0 0 0 0 0
+  Key -4.0253124 0.079999998 0 0 0 0 -1.1465667 0 0
+  Key -4.321816 0.12 0 0 0 0 0 0 0
+  Key 0.70152754 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  5
+  Key -0.030900206 0 0 0 0 0 0 0.28405493 0
+  Key -0.067232504 0.039999999 0 0 0 0 0 0 0
+  Key 0.29110503 0.079999998 0 0 0 0 1.4060425 0 0
+  Key 0.6602152 0.12 0 0 0 0 0 0 0
+  Key 1.4606552 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000002
+ZoomFactor 3.2
+ResolutionMultiplier 2.0
+FrameSize 800 400
+PixelAspect 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+
+ApertureHeight 0.015
+Antialiasing 1
+EnhancedAA 1
+AdaptiveSampling 1
+AdaptiveThreshold 0.1
+
+SolidBackdrop 0
+BackdropColor 0.823529 0.823529 0.823529
+ZenithColor 0 0.1569 0.3137
+SkyColor 0.470588 0.705882 0.941176
+GroundColor 0.470588 0.705882 0.941176
+NadirColor 0.3922 0.3137 0.2353
+FogType 3
+FogMinDistance 700
+FogMaxDistance 1000
+FogMinAmount 0
+FogMaxAmount 1
+FogColor 0.5098 0.5098 0.549
+BackdropFog 1
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGB 1
+SaveRGBImagesPrefix D:\landscapes\_renders\10\#10
+RGBImageSaver LW_BMP24(.bmp)
+SaveAlpha 0
+
+ViewConfiguration 0
+DefineView 0
+ViewType 9
+ViewLevel 2
+ViewAimpoint 302.2367 61.75545 -3.143596
+ViewZoomFactor 0.2710413
+
+GridNumber 0
+GridSize 15
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 1
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor 1
+
+CurrentObject 2
+CurrentLight 0
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Fernando</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=0;SampleAnim=0;ExportAnimClip=0;BakeMatrices=1;ExportRelativePaths=1;AnimStart=0;AnimEnd=3.33333;</comments>
+      <source_data>file:///G:/cubensis/juntaAndalucia/3d/entorno.max</source_data>
+    </contributor>
+    <created>2009-10-06T16:57:34Z</created>
+    <modified>2009-10-06T16:57:37Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="tarjeta1.jpg" name="tarjeta1_jpg">
+      <init_from>./texturas/tarjeta1.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="tarjeta" name="tarjeta">
+      <instance_effect url="#tarjeta-fx"/>
+    </material>
+    <material id="marco" name="marco">
+      <instance_effect url="#marco-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="tarjeta-fx" name="tarjeta">
+      <profile_COMMON>
+        <newparam sid="tarjeta1_jpg-surface">
+          <surface type="2D">
+            <init_from>tarjeta1.jpg</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="tarjeta1_jpg-sampler">
+          <sampler2D>
+            <source>tarjeta1_jpg-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588235 0.588235 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="tarjeta1_jpg-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="marco-fx" name="marco">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0 0.654902 0.752941 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0.654902 0.752941 1</color>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0.152941</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.88</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="panel_marco-mesh" name="panel_marco">
+      <mesh>
+        <source id="panel_marco-mesh-positions">
+          <float_array id="panel_marco-mesh-positions-array" count="12">-7.35726 -0.000000 -5.51794 7.35726 0.000000 -5.51794 -7.35726 -0.000000 5.51794 7.35726 0.000000 5.51794</float_array>
+          <technique_common>
+            <accessor source="#panel_marco-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="panel_marco-mesh-normals">
+          <float_array id="panel_marco-mesh-normals-array" count="12">0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#panel_marco-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="panel_marco-mesh-map-channel1">
+          <float_array id="panel_marco-mesh-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#panel_marco-mesh-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="panel_marco-mesh-vertices">
+          <input semantic="POSITION" source="#panel_marco-mesh-positions"/>
+        </vertices>
+        <triangles material="tarjeta" count="2">
+          <input semantic="VERTEX" source="#panel_marco-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#panel_marco-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#panel_marco-mesh-map-channel1" offset="2" set="1"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 2 3 2 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="marco-mesh" name="marco">
+      <mesh>
+        <source id="marco-mesh-positions">
+          <float_array id="marco-mesh-positions-array" count="60">-8.33161 0.000000 -6.78374 8.33161 0.000000 -6.78374 -8.33161 -0.000000 6.78374 8.33161 -0.000000 6.78374 -8.57343 -0.289008 -6.98064 8.57343 -0.289008 -6.98064 -8.57343 -0.289009 6.98064 8.57343 -0.289009 6.98064 -8.18442 -0.488328 -6.5686 8.18442 -0.488328 -6.5686 8.18442 -0.488329 6.5686 -8.18442 -0.488329 6.5686 -7.7954 -0.538158 -6.15657 7.7954 -0.538158 -6.15657 7.7954 -0.538158 6.15657 -7.7954 -0.538159 6.15657 -7.38878 0.009971 -5.58365 7.38878 0.009971 -5.58365 7.38878 0.00997 5.58365 -7.38878 0.00997 5.58365</float_array>
+          <technique_common>
+            <accessor source="#marco-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="marco-mesh-normals">
+          <float_array id="marco-mesh-normals-array" count="72">0 1 0 0 1 0 0 1 0 0 1 0 0.366838 -0.885708 0.284519 -0.366838 -0.885708 0.284519 -0.366838 -0.885708 -0.284519 0.366838 -0.885708 -0.284519 -0.451129 0.728603 -0.515384 0.451129 0.728603 -0.515384 0.707892 -0.153856 -0.68936 -0.707891 -0.153857 -0.689361 0.45113 0.728602 0.515384 0.707891 -0.153858 0.689361 -0.451129 0.728603 0.515384 -0.707892 -0.153856 0.68936 0.196098 -0.963077 -0.184469 -0.196098 -0.963077 -0.184469 0.196097 -0.963077 0.184469 -0.196098 -0.963077 0.184469 -0.066219 -0.994616 0.079707 0.066219 -0.994616 0.079707 -0.066219 -0.994616 -0.079707 0.066219 -0.994616 -0.079707</float_array>
+          <technique_common>
+            <accessor source="#marco-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="marco-mesh-map-channel1">
+          <float_array id="marco-mesh-map-channel1-array" count="96">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#marco-mesh-map-channel1-array" count="32" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="marco-mesh-vertices">
+          <input semantic="POSITION" source="#marco-mesh-positions"/>
+        </vertices>
+        <triangles material="marco" count="36">
+          <input semantic="VERTEX" source="#marco-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#marco-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#marco-mesh-map-channel1" offset="2" set="1"/>
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 16 4 28 17 5 29 18 6 30 18 6 30 19 7 31 16 4 28 0 8 4 1 9 5 5 10 7 5 10 7 4 11 6 0 8 4 1 9 8 3 12 9 7 13 11 7 13 11 5 10 10 1 9 8 3 12 12 2 14 13 6 15 15 6 15 15 7 13 14 3 12 12 2 14 16 0 8 17 4 11 19 4 11 19 6 15 18 2 14 16 4 11 6 5 10 7 9 16 21 9 16 21 8 17 20 4 11 6 5 10 10 7 13 11 10 18 22 10 18 22 9 16 21 5 10 10 7 13 14 6 15 15 11 19 23 11 19 23 10 18 22 7 13 14 6 15 18 4 11 19 8 17 20 8 17 20 11 19 23 6 15 18 8 17 20 9 16 21 13 20 25 13 20 25 12 21 24 8 17 20 9 16 21 10 18 22 14 22 26 14 22 26 13 20 25 9 16 21 10 18 22 11 19 23 15 23 27 15 23 27 14 22 26 10 18 22 11 19 23 8 17 20 12 21 24 12 21 24 15 23 27 11 19 23 12 21 24 13 20 25 17 5 29 17 5 29 16 4 28 12 21 24 13 20 25 14 22 26 18 6 30 18 6 30 17 5 29 13 20 25 14 22 26 15 23 27 19 7 31 19 7 31 18 6 30 14 22 26 15 23 27 12 21 24 16 4 28 16 4 28 19 7 31 15 23 27</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="entorno.max" name="entorno_max">
+      <node id="panel_marco-node" name="panel_marco" type="NODE">
+        <matrix>1 0 0 -0.068826 0 1 0 -0.346908 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#panel_marco-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="tarjeta" target="#tarjeta">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="marco-node" name="marco" type="NODE">
+        <matrix>1 0 0 -0.068826 0 1 0 0.030565 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#marco-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="marco" target="#marco"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#entorno.max"/>
+  </scene>
+</COLLADA>

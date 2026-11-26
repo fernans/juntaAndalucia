@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Fernando</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=1;ExportRelativePaths=1;AnimStart=3.36667;AnimEnd=5;</comments>
+      <source_data>file:///G:/cubensis/juntaAndalucia/dev/max/nuevaEscena_01.max</source_data>
+    </contributor>
+    <created>2009-10-14T15:43:53Z</created>
+    <modified>2009-10-14T15:43:59Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="tarjeta_MAIN_01-node-transform">
+      <source id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-input">
+        <float_array id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-input-array" count="50">3.36667 3.4 3.43333 3.46667 3.5 3.53333 3.56667 3.6 3.63333 3.66667 3.7 3.73333 3.76667 3.8 3.83333 3.86667 3.9 3.93333 3.96667 4 4.03333 4.06667 4.1 4.13333 4.16667 4.2 4.23333 4.26667 4.3 4.33333 4.36667 4.4 4.43333 4.46667 4.5 4.53333 4.56667 4.6 4.63333 4.66667 4.7 4.73333 4.76667 4.8 4.83333 4.86667 4.9 4.93333 4.96667 5</float_array>
+        <technique_common>
+          <accessor source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-input-array" count="50" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-output">
+        <float_array id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-output-array" count="800">-0.017144 0.041477 0.296624 0 -0.292801 0.060211 -0.025342 66.0565 -0.063037 -0.290954 0.037041 0 0 0 0 1 -0.016604 0.042 0.297454 0 -0.293693 0.060348 -0.024916 65.9751 -0.063142 -0.29174 0.037669 0 0 0 0 1 -0.014995 0.043555 0.299886 0 -0.296316 0.060758 -0.023641 65.7354 -0.063447 -0.294049 0.039535 0 0 0 0 1 -0.012304 0.04614 0.303821 0 -0.300579 0.061456 -0.021506 65.344 -0.063937 -0.297794 0.042635 0 0 0 0 1 -0.008484 0.049773 0.309136 0 -0.306383 0.062474 -0.018468 64.8078 -0.064592 -0.302876 0.046992 0 0 0 0 1 -0.003466 0.054491 0.315691 0 -0.313616 0.063861 -0.014467 64.1335 -0.065388 -0.309184 0.05265 0 0 0 0 1 0.00284 0.060341 0.323322 0 -0.322153 0.065686 -0.009428 63.3278 -0.066299 -0.316592 0.059668 0 0 0 0 1 0.010545 0.067375 0.331841 0 -0.331857 0.068039 -0.003268 62.3974 -0.067296 -0.324962 0.068117 0 0 0 0 1 0.019761 0.075644 0.341037 0 -0.342573 0.071032 0.004094 61.3492 -0.06835 -0.334142 0.078076 0 0 0 0 1 0.030608 0.085193 0.350675 0 -0.354133 0.074801 0.012738 60.1897 -0.06943 -0.343969 0.089624 0 0 0 0 1 0.043204 0.096048 0.360494 0 -0.366348 0.079506 0.022723 58.9258 -0.070504 -0.354262 0.102838 0 0 0 0 1 0.05766 0.108218 0.370214 0 -0.379013 0.085327 0.034088 57.5643 -0.071541 -0.364831 0.117788 0 0 0 0 1 0.074072 0.12168 0.379531 0 -0.391909 0.092466 0.046843 56.1118 -0.072508 -0.375474 0.134531 0 0 0 0 1 0.092522 0.136376 0.388132 0 -0.404797 0.101137 0.060959 54.575 -0.073377 -0.385977 0.153111 0 0 0 0 1 0.113068 0.152207 0.395693 0 -0.417428 0.111562 0.076364 52.9608 -0.074117 -0.39612 0.17355 0 0 0 0 1 0.13574 0.169028 0.401891 0 -0.429542 0.123967 0.092941 51.2758 -0.074702 -0.405677 0.195851 0 0 0 0 1 0.16054 0.186644 0.406414 0 -0.440872 0.138565 0.110516 49.5268 -0.075105 -0.414422 0.21999 0 0 0 0 1 0.187438 0.204814 0.40897 0 -0.451148 0.155554 0.128867 47.7206 -0.075304 -0.422129 0.245917 0 0 0 0 1 0.216366 0.223245 0.409299 0 -0.460105 0.175101 0.147718 45.8638 -0.075277 -0.428578 0.273554 0 0 0 0 1 0.247221 0.241602 0.407182 0 -0.467486 0.197331 0.166747 43.9632 -0.075007 -0.433562 0.302796 0 0 0 0 1 0.279864 0.259515 0.402456 0 -0.473045 0.222321 0.185592 42.0256 -0.074479 -0.436885 0.333508 0 0 0 0 1 0.314122 0.276583 0.39502 0 -0.476561 0.250085 0.20386 40.0576 -0.073681 -0.438373 0.365529 0 0 0 0 1 0.349787 0.292392 0.384844 0 -0.477835 0.280572 0.221138 38.0661 -0.072605 -0.437876 0.398675 0 0 0 0 1 0.386622 0.306524 0.371972 0 -0.476701 0.313656 0.237007 36.0577 -0.071246 -0.435269 0.432737 0 0 0 0 1 0.424365 0.318577 0.356527 0 -0.473031 0.349141 0.251059 34.0392 -0.069602 -0.430462 0.467489 0 0 0 0 1 0.46273 0.328176 0.338707 0 -0.466735 0.386754 0.262909 32.0173 -0.067678 -0.423395 0.50269 0 0 0 0 1 0.501421 0.334989 0.318784 0 -0.45777 0.426157 0.272215 29.9989 -0.065478 -0.41405 0.538089 0 0 0 0 1 0.540131 0.338743 0.297091 0 -0.446138 0.466952 0.278689 27.9905 -0.063013 -0.402442 0.573429 0 0 0 0 1 0.578549 0.339239 0.274013 0 -0.431892 0.508692 0.282112 25.9989 -0.060297 -0.388631 0.608453 0 0 0 0 1 0.616373 0.336356 0.249975 0 -0.415131 0.550897 0.282341 24.031 -0.057347 -0.372713 0.642911 0 0 0 0 1 0.653309 0.330061 0.225423 0 -0.396005 0.593067 0.279321 22.0933 -0.054184 -0.354824 0.676559 0 0 0 0 1 0.689082 0.320413 0.200811 0 -0.374708 0.634699 0.273084 20.1928 -0.050832 -0.335135 0.709172 0 0 0 0 1 0.723441 0.307564 0.176579 0 -0.351477 0.675309 0.263752 18.336 -0.047319 -0.313856 0.740539 0 0 0 0 1 0.756164 0.291749 0.153141 0 -0.326591 0.714439 0.251532 16.5297 -0.043676 -0.291226 0.770475 0 0 0 0 1 0.787057 0.273286 0.130867 0 -0.300361 0.75168 0.236709 14.7807 -0.039936 -0.267512 0.79882 0 0 0 0 1 0.815967 0.252564 0.110074 0 -0.273128 0.786681 0.219639 13.0958 -0.036135 -0.243006 0.825439 0 0 0 0 1 0.842774 0.230027 0.091013 0 -0.245258 0.819158 0.200731 11.4815 -0.032312 -0.218019 0.850228 0 0 0 0 1 0.867397 0.206164 0.073865 0 -0.217134 0.8489 0.180441 9.94478 -0.028508 -0.192879 0.87311 0 0 0 0 1 0.889788 0.181497 0.058736 0 -0.18915 0.875771 0.159253 8.49225 -0.024764 -0.167923 0.894037 0 0 0 0 1 0.909938 0.15656 0.04566 0 -0.161709 0.899711 0.137667 7.13069 -0.021124 -0.143495 0.912987 0 0 0 0 1 0.927864 0.131893 0.034603 0 -0.135211 0.92073 0.116185 5.86681 -0.017632 -0.119939 0.929961 0 0 0 0 1 0.943612 0.108023 0.025469 0 -0.110055 0.938896 0.0953 4.70738 -0.014333 -0.097598 0.944981 0 0 0 0 1 0.957247 0.08546 0.018113 0 -0.086628 0.954332 0.075488 3.65911 -0.011272 -0.076808 0.958085 0 0 0 0 1 0.968848 0.064687 0.012351 0 -0.065306 0.967195 0.057197 2.72875 -0.008492 -0.057896 0.969319 0 0 0 0 1 0.978501 0.046153 0.007977 0 -0.046446 0.977667 0.040841 1.92304 -0.006037 -0.041173 0.978737 0 0 0 0 1 0.986291 0.030268 0.004775 0 -0.030386 0.985935 0.026801 1.24871 -0.003949 -0.026935 0.986392 0 0 0 0 1 0.992294 0.017403 0.002537 0 -0.01744 0.992176 0.015416 0.712507 -0.002266 -0.015459 0.992327 0 0 0 0 1 0.996565 0.007887 0.001081 0 -0.007894 0.996541 0.006989 0.321162 -0.001025 -0.006997 0.996571 0 0 0 0 1 0.999135 0.002005 0.000264 0 -0.002006 0.999134 0.001777 0.081413 -0.00026 -0.001778 0.999136 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-output-array" count="50" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-interpolations">
+        <Name_array id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-interpolations-array" count="50">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-interpolations-array" count="50" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-sampler">
+        <input semantic="INPUT" source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-input"/>
+        <input semantic="OUTPUT" source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-output"/>
+        <input semantic="INTERPOLATION" source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-interpolations"/>
+      </sampler>
+      <channel source="#tarjeta_MAIN_01-node-transform_tarjeta_MAIN_01-node_transform-sampler" target="tarjeta_MAIN_01-node/transform"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="33.3">
+      <instance_animation url="#tarjeta_MAIN_01-node-transform"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_materials>
+    <material id="ColorMaterial_9A9AE500" name="ColorMaterial_9A9AE500">
+      <instance_effect url="#ColorMaterial_9A9AE500-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="ColorMaterial_9A9AE500-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.603922 0.603922 0.898039 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.603922 0.603922 0.898039 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.2</float>
+              </spec_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tarjeta_MAIN_01-mesh" name="tarjeta_MAIN_01">
+      <mesh>
+        <source id="tarjeta_MAIN_01-mesh-positions">
+          <float_array id="tarjeta_MAIN_01-mesh-positions-array" count="18">-0.000045 0 3.83646 -0.000045 3.83646 -0.000000 -3.8365 -0.000000 -0.000000 -0.000045 -3.83646 -0.000000 3.83641 0.000000 -0.000000 -0.000045 0 -3.83646</float_array>
+          <technique_common>
+            <accessor source="#tarjeta_MAIN_01-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tarjeta_MAIN_01-mesh-normals">
+          <float_array id="tarjeta_MAIN_01-mesh-normals-array" count="18">0 0 1 0 1 0 -1 0 0 0 -1 0 1 0.000000 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#tarjeta_MAIN_01-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tarjeta_MAIN_01-mesh-map-channel1">
+          <float_array id="tarjeta_MAIN_01-mesh-map-channel1-array" count="39">0 1 0 0.25 1 0 0.5 1 0 0.75 1 0 0 0.5 0 0.25 0.5 0 0.5 0.5 0 0.75 0.5 0 1 0.5 0 0 0 0 0.25 0 0 0.5 0 0 0.75 0 0</float_array>
+          <technique_common>
+            <accessor source="#tarjeta_MAIN_01-mesh-map-channel1-array" count="13" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tarjeta_MAIN_01-mesh-vertices">
+          <input semantic="POSITION" source="#tarjeta_MAIN_01-mesh-positions"/>
+        </vertices>
+        <triangles material="ColorMaterial" count="8">
+          <input semantic="VERTEX" source="#tarjeta_MAIN_01-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tarjeta_MAIN_01-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tarjeta_MAIN_01-mesh-map-channel1" offset="2" set="1"/>
+          <p>0 0 0 1 1 4 2 2 5 0 0 1 2 2 5 3 3 6 0 0 2 3 3 6 4 4 7 0 0 3 4 4 7 1 1 8 5 5 9 2 2 5 1 1 4 5 5 10 3 3 6 2 2 5 5 5 11 4 4 7 3 3 6 5 5 12 1 1 8 4 4 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="nuevaEscena_01.max" name="nuevaEscena_01_max">
+      <node id="tarjeta_MAIN_01-node" name="tarjeta_MAIN_01" type="NODE">
+        <matrix sid="transform">-0.017144 0.041477 0.296624 0 -0.292801 0.060211 -0.025342 66.0565 -0.063037 -0.290954 0.037041 0 0 0 0 1</matrix>
+        <instance_geometry url="#tarjeta_MAIN_01-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ColorMaterial" target="#ColorMaterial_9A9AE500"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>3.36667</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#nuevaEscena_01.max"/>
+  </scene>
+</COLLADA>

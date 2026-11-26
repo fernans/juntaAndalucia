@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+function MainAI.onInit()
+
+
+
+
+
+
+
+
+application.setCurrentUserScene("Escena_01")
+local s=application.getCurrentUserScene()
+
+local cam=(application.getCurrentUserActiveCamera())
+
+local t=scene.createRuntimeObject(s,"helper")
+object.sendEvent(cam,"animatedCam","onsetTarget",t)
+this.camara(t)
+
+
+
+this.cam_cur(1)
+this.cam_next(1)
+
+animation.changeClip(t,0,0)
+animation.setPlaybackMode(t,0,animation.kPlaybackModeOnce)
+animation.setPlaybackLevel(t,0,1)
+animation.setPlaybackSpeed(t,0,0)
+
+
+this.obj_cur(nil)
+this.obj_old(nil)
+
+
+this.index(0)
+
+
+
+local c=scene.getTaggedObjectCount(s)
+if(c>0)then
+log.message(c.." objetos con TAG")
+for i=1,c do
+local o=scene.getTaggedObjectAt(s,i-1)
+object.setVisible(o,false)
+end
+else
+log.error("No hay objetos con etiqueta: revisar importacion scena")
+end
+
+
+
+this.setSlides()
+
+
+
+
+
+
+user.postEvent(application.getCurrentUser(),1,"MainAI","onnextStep")
+
+
+end

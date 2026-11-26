@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+function mainCameraAI.onSetTargets(t,l)
+
+
+
+
+
+this.target(t)
+this.lookat(l)
+
+end

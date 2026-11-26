@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+function MainAI.setSlides()
+
+
+
+
+
+local x=xml.getRootElement(this.slides())
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","1")
+xml.appendElementAttribute(xe,"tipo","2")
+xml.appendElementAttribute(xe,"textura","texfile11")
+xml.appendElementAttribute(xe,"ext","jpg")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","5")
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","2")
+xml.appendElementAttribute(xe,"tipo","1")
+xml.appendElementAttribute(xe,"textura","Grafica_01_bis")
+xml.appendElementAttribute(xe,"ext","mov")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","6")
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","3")
+xml.appendElementAttribute(xe,"tipo","0")
+xml.appendElementAttribute(xe,"textura","texfile11")
+xml.appendElementAttribute(xe,"ext","jpg")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","7")
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","4")
+xml.appendElementAttribute(xe,"tipo","1")
+xml.appendElementAttribute(xe,"textura","texfile11")
+xml.appendElementAttribute(xe,"ext","jpg")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","8")
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","5")
+xml.appendElementAttribute(xe,"tipo","1")
+xml.appendElementAttribute(xe,"textura","texfile11")
+xml.appendElementAttribute(xe,"ext","jpg")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","9")
+
+local xe=xml.appendElementChild(x,"slide","")
+xml.appendElementAttribute(xe,"camnext","1")
+xml.appendElementAttribute(xe,"tipo","1")
+xml.appendElementAttribute(xe,"textura","texfile11")
+xml.appendElementAttribute(xe,"ext","jpg")
+xml.appendElementAttribute(xe,"animin","0")
+xml.appendElementAttribute(xe,"animout","0")
+xml.appendElementAttribute(xe,"sleep","10")
+
+
+
+
+end

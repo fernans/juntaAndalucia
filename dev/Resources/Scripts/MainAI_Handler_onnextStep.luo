@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function MainAI.onnextStep()
+
+
+
+
+
+
+log.message("--------------- recibida peticion de --next_step--")
+this.nextStep()
+
+
+end

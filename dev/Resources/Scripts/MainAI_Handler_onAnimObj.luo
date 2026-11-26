@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function MainAI.onAnimObj(o1,anim)
+
+
+
+
+
+local aini=animation.getClipKeyFrameRangeMin(o1,anim)
+animation.setPlaybackCursor(o1,0,aini)
+animation.setPlaybackSpeed(o1,0,100)
+
+
+end

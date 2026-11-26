@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+function animatedCam.onsetTarget(t)
+
+
+
+
+
+this.target(t)
+log.message("camera target, asignado")
+
+end

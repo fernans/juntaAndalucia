@@ -1,0 +1,563 @@
+LWSC
+3
+
+FirstFrame 1
+LastFrame 3
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+CurrentFrame 1
+FramesPerSecond 25
+
+AddNullObject Null
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -0.044887908 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key -0.14129877 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0.0030135168 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/08_Hills/terrain.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AddNullObject camera_target
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  5
+  Key -17.178455 0 0 0 0 0 0 0 0
+  Key -27.462158 0.039999999 0 0 0 0 17.059982 26.065767 0
+  Key 0 0.079999998 0 0 0 0 24.691177 24.691177 0
+  Key 21.920197 0.12 0 0 0 0 17.835789 0 0
+  Key -0.70847434 0.16 0 0 0 0 -22.47261 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  5
+  Key 4 0 0 0 0 0 0 -1.9862069 0
+  Key 6 0.039999999 0 0 0 0 0 24 0
+  Key 0 0.079999998 0 0 0 0 17 17 0
+  Key 40 0.12 0 0 0 0 22.666666 0 0
+  Key 40 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  5
+  Key 68.794853 0 0 0 0 0 0 0 0
+  Key 16.96476 0.039999999 0 0 0 0 -68.320404 -43.542595 0
+  Key 0 0.079999998 0 0 0 0 -6.7418995 -6.7418995 0
+  Key 3.4809608 0.12 0 0 0 0 -63.107037 0 0
+  Key -77.695793 0.16 0 0 0 0 -80.616913 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  5
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/08_Hills/stones01.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/08_Hills/stones02.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AmbientColor 1 1 1
+AmbientIntensity 0.15
+
+AddLight
+LightName Light
+ShowLight 1 5
+SchematicPosition 1.200000 -0.800000
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 1908.5375 0.079999998 0 0 0 0 1098.6456 -721.521 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 1777.0497 0.079999998 0 0 0 0 1037.4808 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -2541.6711 0.079999998 0 0 0 0 -3056.4304 118.92706 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.64408678 0.079999998 0 0 0 0 1.4990904 -0.6626882 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.50982636 0.079999998 0 0 0 0 -0.14272229 -0.075495563 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 400 0.079999998 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 25 0.079999998 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000000
+LightColor 1 1 1
+LightIntensity 0.55
+AffectCaustics 1
+LightType 4
+LightQuality 4
+ShadowType 1
+
+AddCamera
+CameraName Camera
+ShowCamera 1 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  5
+  Key -24.753767 0 0 0 0 0 0 -108.28069 0
+  Key 31.53595 0.039999999 0 0 0 0 0 0 0
+  Key 919.02271 0.079999998 0 0 0 0 0 0 0
+  Key -483.76837 0.12 0 0 0 0 0 0 0
+  Key -61.701321 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  5
+  Key 2 0 0 0 0 0 0 82.686455 0
+  Key 2 0.039999999 0 0 0 0 0 0 0
+  Key 640.03003 0.079999998 0 0 0 0 128.39131 0 0
+  Key 145.59486 0.12 0 0 0 0 0 0 0
+  Key 894.57324 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  5
+  Key 4.5359449 0 0 0 0 0 0 -5.2113762 0
+  Key 25.010624 0.039999999 0 0 0 0 0 0 0
+  Key -1195.6254 0.079999998 0 0 0 0 -26.112244 0 0
+  Key 55.7882 0.12 0 0 0 0 0 0 0
+  Key -149.88496 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  5
+  Key 0.11734574 0 0 0 0 0 0 0.030941727 0
+  Key -1.7063352 0.039999999 0 0 0 0 0 0 0
+  Key -0.6553334 0.079999998 0 0 0 0 -1.1465667 0 0
+  Key -4.6093178 0.12 0 0 0 0 0 0 0
+  Key 0.70152754 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  5
+  Key -0.030900206 0 0 0 0 0 0 0.28405493 0
+  Key -0.067076199 0.039999999 0 0 0 0 0 0 0
+  Key 0.40137726 0.079999998 0 0 0 0 1.4060425 0 0
+  Key 0.2047939 0.12 0 0 0 0 0 0 0
+  Key 1.4606552 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  5
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000002
+ZoomFactor 3.2
+ResolutionMultiplier 2.0
+FrameSize 800 400
+PixelAspect 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+
+ApertureHeight 0.015
+Antialiasing 1
+EnhancedAA 1
+AdaptiveSampling 1
+AdaptiveThreshold 0.1
+
+SolidBackdrop 0
+BackdropColor 0.823529 0.823529 0.823529
+ZenithColor 0.282353 0.643137 1
+SkyColor 0.909804 0.94902 0.992157
+GroundColor 0.909804 0.94902 0.992157
+NadirColor 0.3922 0.3137 0.2353
+FogType 2
+FogMinDistance 1700
+FogMaxDistance 2200
+FogMinAmount 0
+FogMaxAmount 1
+FogColor 0.5098 0.5098 0.549
+BackdropFog 1
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGB 1
+SaveRGBImagesPrefix D:\landscapes\_renders\08\08
+RGBImageSaver LW_BMP24(.bmp)
+SaveAlpha 0
+
+ViewConfiguration 0
+DefineView 0
+ViewType 9
+ViewLevel 2
+ViewAimpoint 302.2367 61.75545 -3.143596
+ViewZoomFactor 0.7437373
+
+GridNumber 0
+GridSize 100
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 1
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor 1
+
+CurrentObject 4
+CurrentLight 0
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}

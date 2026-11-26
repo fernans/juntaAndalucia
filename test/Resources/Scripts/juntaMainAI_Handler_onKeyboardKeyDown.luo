@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+function juntaMainAI.onKeyboardKeyDown(kKeyCode)
+
+
+
+
+
+
+if(kKeyCode==input.kKeyEscape)then
+ application.quit()
+end
+
+if(kKeyCode==input.kKeySpace)then
+ application.setOption(application.kOptionFullscreen,1-application.getOption(application.kOptionFullscreen))
+end
+
+if(kKeyCode==input.kKeyBackspace)then
+ application.restart()
+end
+
+
+if(kKeyCode==input.kKey1)then this.sendTargets(1)
+elseif(kKeyCode==input.kKey2)then this.sendTargets(2)
+elseif(kKeyCode==input.kKey3)then this.sendTargets(3)
+elseif(kKeyCode==input.kKey4)then this.sendTargets(4)
+elseif(kKeyCode==input.kKey5)then this.sendTargets(5)
+elseif(kKeyCode==input.kKey6)then this.sendTargets(6)
+elseif(kKeyCode==input.kKey7)then this.sendTargets(7)
+elseif(kKeyCode==input.kKey8)then this.sendTargets(8)
+elseif(kKeyCode==input.kKey9)then this.sendTargets(9)
+elseif(kKeyCode==input.kKey0)then this.sendTargets(0)
+end
+
+
+
+end

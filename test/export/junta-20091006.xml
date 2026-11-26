@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="junta-20091006.xsl"?>
+
+<ExportReport name="junta-20091006" Compress_Size="819997" UnCompress_Size="2242637" FileCount="47" >
+	<Resource Name="Meshes" Compress_Size="152499" UnCompress_Size="307562" FileCount="18" >
+		<File Name="entorno_c_l2-mesh" UnCompress_Size="573" Compress_Size="161" Extension="msh" />
+		<File Name="entorno_suelo_cerca-mesh" UnCompress_Size="47245" Compress_Size="33647" Extension="msh" />
+		<File Name="entorno_c_place1-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_c_place3-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_c_p1-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_c_p3-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="panel_fullscreen_panel_fullscreen-mesh" UnCompress_Size="249" Compress_Size="108" Extension="msh" />
+		<File Name="entorno_suelo_lejos-mesh" UnCompress_Size="47245" Compress_Size="34702" Extension="msh" />
+		<File Name="marco_panel_marco-mesh" UnCompress_Size="249" Compress_Size="104" Extension="msh" />
+		<File Name="entorno_Sphere01-mesh" UnCompress_Size="66093" Compress_Size="29099" Extension="msh" />
+		<File Name="logo_Text01-mesh" UnCompress_Size="92157" Compress_Size="41672" Extension="msh" />
+		<File Name="entorno_c_p2-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="marco_marco-mesh" UnCompress_Size="1349" Compress_Size="555" Extension="msh" />
+		<File Name="entorno_c_center-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_c_l3-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_c_l1-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+		<File Name="entorno_agua-mesh" UnCompress_Size="47245" Compress_Size="11002" Extension="msh" />
+		<File Name="entorno_c_place2-mesh" UnCompress_Size="573" Compress_Size="Reference" Extension="msh" />
+	</Resource>
+	<Resource Name="Games" Compress_Size="106" UnCompress_Size="127" FileCount="1" >
+		<File Name="test1" UnCompress_Size="127" Compress_Size="106" Extension="gam" />
+	</Resource>
+	<Resource Name="Materials" Compress_Size="520" UnCompress_Size="689" FileCount="8" >
+		<File Name="entorno_agua" UnCompress_Size="171" Compress_Size="104" Extension="mat" />
+		<File Name="entorno_Grass" UnCompress_Size="85" Compress_Size="73" Extension="mat" />
+		<File Name="entorno_dummy" UnCompress_Size="61" Compress_Size="45" Extension="mat" />
+		<File Name="entorno_sky" UnCompress_Size="79" Compress_Size="68" Extension="mat" />
+		<File Name="marco_marco" UnCompress_Size="61" Compress_Size="46" Extension="mat" />
+		<File Name="marco_tarjeta" UnCompress_Size="79" Compress_Size="67" Extension="mat" />
+		<File Name="logo_logo" UnCompress_Size="61" Compress_Size="46" Extension="mat" />
+		<File Name="panel_fullscreen_fullscreen" UnCompress_Size="92" Compress_Size="71" Extension="mat" />
+	</Resource>
+	<Resource Name="Textures" Compress_Size="662041" UnCompress_Size="1922960" FileCount="4" >
+		<File Name="entorno_wildGrass_pt" UnCompress_Size="174904" Compress_Size="166245" Extension="dds" />
+		<File Name="panel_fullscreen_fullscreen" UnCompress_Size="174904" Compress_Size="80276" Extension="dds" />
+		<File Name="entorno_Sky_14" UnCompress_Size="1398248" Compress_Size="301625" Extension="dds" />
+		<File Name="marco_tarjeta1" UnCompress_Size="174904" Compress_Size="113895" Extension="dds" />
+	</Resource>
+	<Resource Name="RenderMaps" Compress_Size="21" UnCompress_Size="16" FileCount="1" >
+		<File Name="agua" UnCompress_Size="16" Compress_Size="21" Extension="rmp" />
+	</Resource>
+	<Resource Name="Models" Compress_Size="703" UnCompress_Size="1780" FileCount="5" >
+		<File Name="marco" UnCompress_Size="567" Compress_Size="203" Extension="mdo" />
+		<File Name="reflector" UnCompress_Size="205" Compress_Size="81" Extension="mdo" />
+		<File Name="logo" UnCompress_Size="256" Compress_Size="126" Extension="mdo" />
+		<File Name="panel_fullscreen" UnCompress_Size="553" Compress_Size="192" Extension="mdo" />
+		<File Name="mainCamera" UnCompress_Size="199" Compress_Size="101" Extension="mdo" />
+	</Resource>
+	<Resource Name="AnimBanks" Compress_Size="35" UnCompress_Size="33" FileCount="1" >
+		<File Name="logo_AnimBank" UnCompress_Size="33" Compress_Size="35" Extension="anb" />
+	</Resource>
+	<Resource Name="AIModels" Compress_Size="178" UnCompress_Size="292" FileCount="2" >
+		<File Name="mainCameraAI" UnCompress_Size="132" Compress_Size="81" Extension="aim" />
+		<File Name="juntaMainAI" UnCompress_Size="160" Compress_Size="97" Extension="aim" />
+	</Resource>
+	<Resource Name="Scenes" Compress_Size="1057" UnCompress_Size="4069" FileCount="1" >
+		<File Name="entorno" UnCompress_Size="4069" Compress_Size="1057" Extension="scn" />
+	</Resource>
+	<Resource Name="Scripts" Compress_Size="2288" UnCompress_Size="4117" FileCount="5" >
+		<File Name="juntaMainAI_Handler_onKeyboardKeyDown" UnCompress_Size="1015" Compress_Size="474" Extension="lub" />
+		<File Name="mainCameraAI_Handler_onSetTargets" UnCompress_Size="224" Compress_Size="156" Extension="lub" />
+		<File Name="juntaMainAI_Function_sendTargets" UnCompress_Size="471" Compress_Size="324" Extension="lub" />
+		<File Name="juntaMainAI_Handler_onInit" UnCompress_Size="1861" Compress_Size="972" Extension="lub" />
+		<File Name="mainCameraAI_Handler_onEnterFrame" UnCompress_Size="546" Compress_Size="362" Extension="lub" />
+	</Resource>
+	<Resource Name="AnimClips" Compress_Size="549" UnCompress_Size="992" FileCount="1" >
+		<File Name="logo_AnimClip" UnCompress_Size="992" Compress_Size="549" Extension="ani" />
+	</Resource>
+</ExportReport>

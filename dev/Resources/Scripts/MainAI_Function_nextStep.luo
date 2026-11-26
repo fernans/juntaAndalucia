@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+function MainAI.nextStep()
+
+
+
+
+
+local i=this.index()
+local x=xml.getRootElement(this.slides())
+if(i<xml.getElementChildCount(x))then
+
+this.cam_cur(this.cam_next())
+this.obj_old(this.obj_cur())
+local s=application.getCurrentUserScene()
+
+
+local xe=xml.getElementChildAt(x,i)
+
+this.cam_next(xml.getAttributeValue(xml.getElementAttributeWithName(xe,"camnext"))+0)
+local tipo=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"tipo"))+0
+local textura=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"textura"))
+local ext=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"ext"))
+local anim_in=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"animin"))+0
+local anim_out=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"animout"))+0
+local sleep=xml.getAttributeValue(xml.getElementAttributeWithName(xe,"sleep"))+0
+
+log.message("[cam_next:"..this.cam_next().."]")
+log.message("[tipo:"..tipo.."]")
+log.message("[textura:"..textura.."]")
+log.message("[anim_in:"..anim_in.."]")
+log.message("[anim_out:"..anim_out.."]")
+log.message("[sleep:"..sleep.."]")
+
+
+
+
+if(tipo==1)then
+ local o=scene.createRuntimeObject(s,"tarjeta")
+if(o~=nil)then log.message(">> tarjeta creada")end
+this.obj_cur(o)
+local o1=group.getSubObjectAt(o,0)
+local o2=group.getSubObjectAt(o1,0)
+
+
+if(ext=="jpg")then
+shape.overrideMeshSubsetMaterialEffectMap0(o2,1,textura,shape.kMapTypeTexture)
+elseif(ext=="mov")then
+shape.overrideMeshSubsetMaterialEffectMap0(o2,1,textura,shape.kMapTypeMovie)
+end
+
+local tg=scene.getTaggedObject(s,"_P"..this.cam_next())
+object.matchTranslation(o,tg,object.kGlobalSpace)
+object.matchRotation(o,tg,object.kGlobalSpace)
+
+animation.changeClip(o1,0,anim_in+0)
+animation.setPlaybackLevel(o1,0,100)
+animation.setPlaybackMode(o1,0,animation.kPlaybackModeOnce)
+local aini=animation.getClipKeyFrameRangeMin(o1,anim_in+0)
+animation.setPlaybackCursor(o1,0,aini)
+animation.setPlaybackSpeed(o1,0,0)
+
+user.postEvent(application.getCurrentUser(),2,"MainAI","onAnimObj",o1,anim_in+0)
+end
+ if(tipo==2)then
+ local o=scene.createRuntimeObject(s,"logo")
+if(o~=nil)then log.message(">> logo creado")end
+this.obj_cur(o)
+
+local tg=scene.getTaggedObject(s,"_P"..this.cam_next())
+object.matchTranslation(o,tg,object.kGlobalSpace)
+object.matchRotation(o,tg,object.kGlobalSpace)
+
+
+
+
+
+
+
+
+
+
+end
+
+
+
+
+o=this.obj_old()
+if(o~=nil)then
+log.message("MODELO: "..object.getModelName(o))
+if(object.getModelName(o)=="tarjeta")then
+o1=group.getSubObjectAt(o,0)
+local anim_outf=anim_out+this.indexAnimOut()
+animation.changeClip(o1,0,anim_outf)
+animation.setPlaybackLevel(o1,0,100)
+animation.setPlaybackMode(o1,0,animation.kPlaybackModeOnce)
+local aini=animation.getClipKeyFrameRangeMin(o1,anim_outf)
+animation.setPlaybackCursor(o1,0,aini)
+
+
+
+animation.setPlaybackSpeed(o1,0,100)
+end
+
+ user.postEvent(application.getCurrentUser(),3,"MainAI","onDestroy",o)
+else
+log.message(">>> NO HAY OBJETO ANTIGUO")
+end
+
+
+
+
+local c=this.camara()
+local camAnim=this.getCamAnim(this.cam_cur(),this.cam_next())
+if(camAnim~=-1)then
+
+user.postEvent(application.getCurrentUser(),1,"MainAI","onAnimCamara",camAnim)
+else
+log.message("sin cambio de camara")
+end
+
+
+user.postEvent(application.getCurrentUser(),sleep+0,"MainAI","onnextStep")
+log.message("fin de next_step [index:"..i.."]")
+this.index(i+1)
+else
+log.message("FIN DE LA PRESENTACION")
+application.quit()
+end
+
+end

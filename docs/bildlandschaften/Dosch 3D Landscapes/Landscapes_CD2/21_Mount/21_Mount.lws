@@ -1,0 +1,1277 @@
+LWSC
+3
+
+FirstFrame 1
+LastFrame 3
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+CurrentFrame 3
+FramesPerSecond 25
+
+AddNullObject Null
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -0.044887908 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key -0.14129877 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0.0030135168 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/terrain.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AddNullObject camera_target
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  7
+  Key -17.178455 0 0 0 0 0 0 0 0
+  Key -17.178455 0.039999999 0 0 0 0 0 0 0
+  Key 9 0.079999998 0 0 0 0 0 0 0
+  Key -17.178455 0.12 0 0 0 0 0 0 0
+  Key -17.178455 0.16 0 0 0 0 0 0 0
+  Key -17.178455 0.2 0 0 0 0 0 0 0
+  Key -17.178455 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  7
+  Key 4 0 0 0 0 0 0 0 0
+  Key 2 0.039999999 0 0 0 0 0 0 0
+  Key 2 0.079999998 0 0 0 0 0 0 0
+  Key 13 0.12 0 0 0 0 0 0 0
+  Key 5 0.16 0 0 0 0 0 0 0
+  Key 25.116241 0.2 0 0 0 0 0 0 0
+  Key 25.116241 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  7
+  Key 68.794853 0 0 0 0 0 0 0 0
+  Key 68.794853 0.039999999 0 0 0 0 0 0 0
+  Key 68.794853 0.079999998 0 0 0 0 0 0 0
+  Key 68.794853 0.12 0 0 0 0 0 0 0
+  Key 68.794853 0.16 0 0 0 0 0 0 0
+  Key 68.794853 0.2 0 0 0 0 0 0 0
+  Key 68.794853 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  7
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Key 0 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  7
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Key 0 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  7
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Key 0 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  7
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Key 1 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  7
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Key 1 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  7
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.039999999 0 0 0 0 0 0 0
+  Key 1 0.079999998 0 0 0 0 0 0 0
+  Key 1 0.12 0 0 0 0 0 0 0
+  Key 1 0.16 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Key 1 0.23999999 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/tree01.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/21_Mount/tree01A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "treeUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/tree02.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/21_Mount/tree02A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "treeUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/tree03.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  2
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 0.2 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/21_Mount/tree03A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "treeUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/bushes01.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/21_Mount/bush01_A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "bushUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/bushes02.lwo
+ShowObject 6 3
+SchematicPosition 0.600000 -0.400000
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ClipMaps
+{ TextureBlock
+  { Texture
+    { ImageMap
+      "(-128)"
+      Channel 1954051186
+      { Opacity
+        0
+        1
+        0
+      }
+      Enable 1
+      Negative 0
+    }
+    { TextureMap
+      { Center
+        0 0 0
+        0
+      }
+      { Size
+        1 1 1
+        0
+      }
+      { Rotation
+        0 0 0
+        0
+      }
+      { Falloff
+        0
+        0 0 0
+        0
+      }
+      RefObject "(none)"
+      Coordinates 0
+    }
+    Projection 5
+    Axis 2
+    { Image
+      { Clip
+        { Still
+          "I:D3D_Landscapes/21_Mount/bush01_A.jpg"
+        }
+      }
+    }
+    WrapOptions 1 1
+    { WidthWrap
+      1
+      0
+    }
+    { HeightWrap
+      1
+      0
+    }
+    VertexMap "bushUV"
+    AntiAliasing 1 1
+    PixelBlending 1
+  }
+}
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/stones01.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/stones02.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 1 I:D3D_Landscapes/21_Mount/stones03.lwo
+ShowObject 6 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AmbientColor 1 1 1
+AmbientIntensity 0.15
+
+AddLight
+LightName Light
+ShowLight 1 5
+SchematicPosition 1.200000 -0.800000
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 806.07709 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 500 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 547.81836 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -2.1676781 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.47411367 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 400 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 25 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000000
+LightColor 1 1 1
+LightIntensity 0.35
+AffectCaustics 1
+LightType 4
+LightQuality 4
+ShadowType 1
+
+AddCamera
+CameraName Camera
+ShowCamera 1 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  10
+  Key -11.992654 0 0 0 0 0 0 1.8367171 0
+  Key -262.23721 0.039999999 0 0 0 0 241.2769 0 0
+  Key -31.437067 0.079999998 0 0 0 0 0 0 0
+  Key -63.503517 0.12 0 0 0 0 0 0 0
+  Key 17.807842 0.16 0 0 0 0 0 0 0
+  Key 100.85999 0.2 0 0 0 0 111.4586 0 0
+  Key -336.84732 0.23999999 0 0 0 0 -436.91782 0 0
+  Key -305.42215 0.28 0 0 0 0 0 0 0
+  Key 183.91217 0.31999999 0 0 0 0 0 0 0
+  Key 242.27316 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  10
+  Key 2 0 0 0 0 0 0 -1.3139079 0
+  Key 85.260666 0.039999999 0 0 0 0 0 0 0
+  Key 15 0.079999998 0 0 0 0 0 0 0
+  Key 5 0.12 0 0 0 0 0 0 0
+  Key 2 0.16 0 0 0 0 0 0 0
+  Key 103.12848 0.2 0 0 0 0 131.67625 0 0
+  Key 181.78395 0.23999999 0 0 0 0 0 0 0
+  Key 202.00966 0.28 0 0 0 0 0 0 0
+  Key 175.04207 0.31999999 0 0 0 0 0 0 0
+  Key 112.11769 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  10
+  Key 84.857483 0 0 0 0 0 0 -3.1688707 0
+  Key 248.15738 0.039999999 0 0 0 0 -165.92097 0 0
+  Key 171.58786 0.079999998 0 0 0 0 0 0 0
+  Key 56.929771 0.12 0 0 0 0 0 0 0
+  Key 92.473778 0.16 0 0 0 0 0 0 0
+  Key 346.43979 0.2 0 0 0 0 205.34673 0 0
+  Key 270.03162 0.23999999 0 0 0 0 -75.881218 0 0
+  Key -213.13785 0.28 0 0 0 0 0 0 0
+  Key -199.64874 0.31999999 0 0 0 0 0 0 0
+  Key 63.282684 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  10
+  Key -2.8293076 0 0 0 0 0 0 0 0
+  Key -4.0805621 0.039999999 0 0 0 0 0 0 0
+  Key -3.2794249 0.079999998 0 0 0 0 0 0 0
+  Key 1.3200598 0.12 0 0 0 0 0 0 0
+  Key -2.1657856 0.16 0 0 0 0 0 0 0
+  Key -2.7396019 0.2 0 0 0 0 -0.40451685 0 0
+  Key -4.1505485 0.23999999 0 0 0 0 -1.4043442 0 0
+  Key 0.79646617 0.28 0 0 0 0 0 0 0
+  Key -0.64292371 0.31999999 0 0 0 0 0 0 0
+  Key -1.5495541 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  10
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0.26759222 0.039999999 0 0 0 0 0 0 0
+  Key 0.1246192 0.079999998 0 0 0 0 0 0 0
+  Key 0.06265261 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Key 0.32343069 0.2 0 0 0 0 0.44834876 0 0
+  Key 0.39316082 0.23999999 0 0 0 0 -0.11992767 0 0
+  Key 0.41343686 0.28 0 0 0 0 0 0 0
+  Key 0.42035103 0.31999999 0 0 0 0 0 0 0
+  Key 0.32347685 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  10
+  Key 0 0 0 0 0 0 0 0 0
+  Key 0 0.039999999 0 0 0 0 0 0 0
+  Key 0 0.079999998 0 0 0 0 0 0 0
+  Key 0 0.12 0 0 0 0 0 0 0
+  Key 0 0.16 0 0 0 0 0 0 0
+  Key 0 0.2 0 0 0 0 0 0 0
+  Key 0 0.23999999 0 0 0 0 0 0 0
+  Key 0 0.28 0 0 0 0 0 0 0
+  Key 0 0.31999999 0 0 0 0 0 0 0
+  Key 0 0.36000001 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+HController 1
+PController 1
+TargetItem 10000002
+ZoomFactor 3.2
+ResolutionMultiplier 2.0
+FrameSize 800 400
+PixelAspect 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+
+ApertureHeight 0.015
+Antialiasing 1
+EnhancedAA 1
+AdaptiveSampling 1
+AdaptiveThreshold 0.1
+
+SolidBackdrop 0
+BackdropColor 0.823529 0.823529 0.823529
+ZenithColor 0 0.1569 0.3137
+SkyColor 0.470588 0.705882 0.941176
+GroundColor 0.470588 0.705882 0.941176
+NadirColor 0.3922 0.3137 0.2353
+FogType 3
+FogMinDistance 3
+FogMaxDistance 600
+FogMinAmount 0
+FogMaxAmount 0.4
+FogColor 0.5098 0.5098 0.549
+BackdropFog 1
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGB 1
+SaveRGBImagesPrefix D:\landscapes\_renders\21\01_
+RGBImageSaver LW_BMP24(.bmp)
+SaveAlpha 0
+
+ViewConfiguration 0
+DefineView 0
+ViewType 9
+ViewLevel 2
+ViewAimpoint -20.75717 2 59.78646
+ViewZoomFactor 0.01311847
+
+GridNumber 0
+GridSize 1
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 1
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor 1
+
+CurrentObject 8
+CurrentLight 0
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}

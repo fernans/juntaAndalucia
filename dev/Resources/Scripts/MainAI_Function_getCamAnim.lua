@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+--  Function......... : getCamAnim
+--  Author........... : 
+--  Description...... : 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+function MainAI.getCamAnim ( orig, dest)
+--------------------------------------------------------------------------------
+	
+	--
+	-- Write your code here, using 'this' as current AI instance.
+	--
+    local anim_ret=-1
+    if (orig==1) then
+        if (dest==1) then anim_ret=-1 
+        elseif (dest==2) then anim_ret=0 
+        elseif (dest==3) then anim_ret=1 
+        elseif (dest==4) then anim_ret=2 
+        elseif (dest==5) then anim_ret=3 
+        end
+    elseif (orig==2) then
+        if (dest==1) then anim_ret=4
+        elseif (dest==2) then anim_ret=-1
+        elseif (dest==3) then anim_ret=5
+        elseif (dest==4) then anim_ret=6
+        elseif (dest==5) then anim_ret=7
+        end  
+    elseif (orig==3) then
+        if (dest==1) then anim_ret=8
+        elseif (dest==2) then anim_ret=9
+        elseif (dest==3) then anim_ret=-1
+        elseif (dest==4) then anim_ret=10
+        elseif (dest==5) then anim_ret=11
+        end    
+    elseif (orig==4) then
+        if (dest==1) then anim_ret=12
+        elseif (dest==2) then anim_ret=13
+        elseif (dest==3) then anim_ret=14
+        elseif (dest==4) then anim_ret=-1
+        elseif (dest==5) then anim_ret=15
+        end    
+    elseif (orig==5) then
+        if (dest==1) then anim_ret=16
+        elseif (dest==2) then anim_ret=17
+        elseif (dest==3) then anim_ret=18
+        elseif (dest==4) then anim_ret=19
+        elseif (dest==5) then anim_ret=-1
+        end    
+    end
+	
+    log.message ( "getCamAnim ["..orig.."->"..dest.."]="..anim_ret )
+    
+    return anim_ret
+--------------------------------------------------------------------------------
+end
+--------------------------------------------------------------------------------

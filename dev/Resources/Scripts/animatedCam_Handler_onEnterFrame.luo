@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+function animatedCam.onEnterFrame()
+
+
+
+
+
+
+local t=this.target()
+if(t~=nil)then
+local o=this.getObject()
+
+
+object.matchTranslation(o,t,object.kGlobalSpace)
+
+object.matchRotation(o,t,object.kGlobalSpace)
+object.rotate(o,0,0,-90,object.kLocalSpace)
+object.rotate(o,0,-90,0,object.kLocalSpace)
+end
+
+end
